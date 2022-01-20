@@ -1,0 +1,124 @@
+body {
+  color: white;
+  /*background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);*/
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Bebas Neue", cursive;
+  font-family: "M PLUS 1 Code", sans-serif;
+  font-family: "Oswald", sans-serif;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+header {
+  width: 100%;
+  background-color: black;
+  background-attachment: fixed;
+  border-radius: 20px;
+  box-sizing: border-box;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 0.5rem 1.5rem;
+}
+
+/* Navegation */
+
+.nav-main {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  /* padding: 20px 0; */
+}
+
+.nav-brand {
+  width: 50px;
+}
+
+/* NAV LEFT */
+
+.nav-main ul {
+  display: flex;
+}
+
+.nav-main ul li {
+  padding: 10px;
+}
+
+.nav-main ul li {
+  padding: 6px;
+}
+
+.nav-main ul li a:hover {
+  border-bottom: 2px solid white;
+}
+
+.nav-main ul.nav-menu {
+  /* margin-left: 20px; */
+}
+
+h1 {
+  color: orange;
+  margin-top: 50px;
+}
+
+/* BANNER */
+
+.aside-banner {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  max-width: 100%;
+  margin: auto;
+}
+
+.sectionone {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 100%;
+}
+
+.contenido1,
+.contenido2 {
+  width: 50%;
+  padding: 16px;
+}
+
+.contenido1 {
+  /*border: 1px solid green;*/
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contenido2 {
+  /* border: 1px solid yellow; */
+  width: 60%;
+}
